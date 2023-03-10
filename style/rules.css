@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Yekan';
+
+}
+
+body {
+  color: #888888;
+  background-color: #f7f7f7;
+}
+
+.container {
+  margin-bottom: 1800px;
+  font-family: 'Yekan';
+
+}
+
+.container h3 {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 20px;
+  padding: 40px 100px 10px 10px;
+  margin: 30px 0px;
+  border-bottom: 0.15px solid #e7e7e7;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.main {
+  width: 700px;
+  height: 1260px;
+  background-color: rgb(249, 250, 252);
+  position: absolute;
+  right: 400px;
+}
+
+.main h4 {
+  margin: 2rem 2rem 0px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+  background-color: rgb(249, 250, 252);
+
+}
+
+.main p {
+  font-size: 16px;
+  margin: 0px 2rem;
+  background-color: rgb(249, 250, 252);
+
+}

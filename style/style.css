@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Yekan';
+}
+
+
+.logo {
+  position: absolute;
+  top: 140px;
+  right: 550px;
+  z-index: 3;
+}
+
+/* .logo h1 {
+  font-family: 'Yekan', 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #efefef;
+  position: absolute;
+  right: -250px;
+  width: 1300px;
+} */
+
+
+.backimg {
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+  height: 667px;
+}
+
+
+#sliderFrame {
+  position: absolute;
+  top: 0px;
+}
+
+
+.text-white {
+  color: #011e46;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin-left: 3px;
+
+}
+
+
+.btn {
+  position: absolute;
+  top: 400px;
+  right: 270px;
+  display: flex;
+}
+
+.btn_freight {
+  position: absolute;
+  top: 70px;
+  right: 280px;
+}
+
+.btn-drivers {
+  position: absolute;
+  right: 530px;
+}
+
+.btn a {
+  width: 182px;
+  height: 55px;
+  padding: 15px 45px;
+  background-color: #efefef;
+  color: #000 !important;
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 70px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  line-height: 25px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.btn a:hover {
+  background-color: #007bff;
+  color: #fff !important;
+}
+
+/* @media (max-width : 1200px) {
+
+  .backimg {
+    width: 940px;
+    margin: 0 auto;
+  }
+  .btn 
+  {
+    margin: 0 auto;
+    width:140px;
+    font-size: 10px;
+    padding: 15px 15px;
+  }
+} */

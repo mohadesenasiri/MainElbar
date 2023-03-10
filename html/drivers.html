@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/owners.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/all.css">
+    <link rel="stylesheet" href="../style/fonts.css">
+    <link rel="stylesheet" href="../style/driver.css">
+
+    <title>رانندگان</title>
+</head>
+
+<body>
+    <div class="header" id="header"><!--header-start-->
+        <div class="container">
+            <a href="index.html"><img src="../img/logo.png" alt=""></a>
+            <h1 class="animated fadeInDown delay-07s" style="text-shadow: 0 0 5px black;">
+                با ثبت نام در ال بار به هر کجا که میخواهید بار حمل کنید
+            </h1>
+            <a class="login" href="#">
+                ثبت نام کنید
+            </a>
+        </div>
+    </div><!--header-end-->
+
+    <!-- log in -->
+    <div class="popup-driver">
+        <div class="popup-content-diver">
+            <p class="title">ثبت نام رانندگان</p>
+            <i class=" fas fa-solid fa-xmark close"></i>
+            <input type="username" class="username-input" placeholder="نام و نام خانوادگی">
+            <input type="tel" class="phonenumber-input" placeholder="تلفن همراه">
+            <button class="btn-logindriver">
+                دریافت کد فعالسازی
+            </button>
+            <div class="timer">
+                <div class="show-time">
+                    <span class="text"> زمان باقیمانده :</span>
+                    <span id="seconds">00</span>
+                    <span class="dot">:</span>
+                    <span id="minutes">0</span>
+                </div>
+                <div class="otp-code">
+                    <input type="text" class="number-otp" maxlength="1">
+                    <input type="text" class="number-otp" maxlength="1">
+                    <input type="text" class="number-otp" maxlength="1">
+                    <input type="text" class="number-otp" maxlength="1">
+                    <input type="text" class="number-otp" maxlength="1">
+                </div>
+                <button class="hide" id="submit">تایید کد و ایجاد حساب کاربری</button>
+            </div>
+        </div>
+    </div>
+    <!-- log in  -->
+
+    <div class="list">
+        <i class="fa-solid fa-bars hamburger-menue fa-2x"></i>
+        <div class="navigation">
+            <ul class="main-nav">
+                <li><a href="#">صفحه اصلی</a></li>
+                <li><a href="#">ال بار چیست</a></li>
+                <li class="small-logo"><a href="#"><img src="../img/small-logo1.png" alt=""></a></li>
+                <li><a href="#">مشتریان</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="main-section" id="service"><!--main-section-start-->
+        <div id="main-owner">
+            <h2>ال بار چیست؟</h2>
+            <h6>سامانه هوشمند ال بار با دسترسی به صاحبان بار در اقصی نقاط کشور، بزرگترین و جامع ترین مرجع اعلام بار
+                اینترنتی می باشد. با پیوستن به ناوگان ال بار دیگر نیازی به اتلاف وقت در باربری ها نداشته و از هر جای
+                کشور بار مورد نظر خود را انتخاب نموده و به مقصد مورد نظر حمل کنید.</h6>
+        </div>
+
+        <div id="section1">
+            <img src="../img/macbook1-pro.png" alt="">
+            <div class="comments">
+                <div id="createuser">
+
+                    <h3>
+                        ثبت نام
+                    </h3>
+                    <i class="fas fa-sign-in fa-2x"></i>
+                </div>
+                <p>برنامه موبایل ال بار برای تمامی گوشی‌های اندروید در دسترس است. کافیست ثبت نام کنید تا لینک دانلود این
+                    برنامه برای شما از طریق پیامک ارسال شود
+                </p>
+                <div id="createuser">
+                    <h3>
+                        انتخاب بار
+                    </h3>
+                    <i class="fas fa-truck fa-2x"></i>
+                </div>
+                <p>ال بار این امکان را برای رانندگان ناوگان باربری فراهم‌ نموده است تا درهرلحظه از شبانه‌روز، بارهای
+                    متناسب با ماشین خود را در سراسر کشور مشاهده و بر اساس معیارهایی نظیر مبدأ، مقصد و کرایه حمل ، بار
+                    موردنظر خود را در کمترین زمان ممکن و با مناسب‌ترین قیمت انتخاب کنند</p>
+                <div id="createuser">
+                    <h3>
+                        پشتیبانی
+                    </h3>
+                    <i class="fas fa-comments fa-2x"></i>
+                </div>
+                <p>با پشتیبانی ال بار تماس بگیرید و از خدمات بیمه ای ، تامین قطعات و کمک رسانی در هنگام بروز مشکلات فنی
+                    بهره ببرید</p>
+            </div>
+        </div>
+    </section><!--main-section-end-->
+
+    <section class="main-section" id="service"><!--main-section-start-->
+        <div id="main-owner">
+            <h2>فرایند انتخاب و حمل بار
+            </h2>
+            <h6>شما راننده محترم می‌توانید با استفاده از اپلیکیشن ال بار تالار اعلان بار را مشاهده نمایید و بارهایی که
+                مورد پذیرش و دلخواهتان است را پذیرفته و بار را از مبدأ مورد نظر به مقصد برسانید. با استفاده از سامانه
+                باربری سراسری ال بار می توانید در مسیر برگشت در هر نقطه ای از کشور بارهای دیگری را رزرو کنید و به این
+                صورت احتمال بازگشت بدون بار تا حد بسیار زیادی کاهش می‌یابد. </h6>
+        </div>
+
+        <div id="section2">
+            <div class="sendcargo">
+                <div id="createuser">
+
+                    <h3>
+                        انتخاب بار
+                    </h3>
+                    <i class="fas fa-magic fa-2x"></i>
+                </div>
+                <p>بار دلخواهتان را از تالار اعلان بار سامانه ال بار مشاهده و انتخاب نمایید
+                </p>
+                <div id="createuser">
+                    <h3>
+                        دریافت اطلاعات
+                    </h3>
+                    <i class="fas fa-gift fa-2x"></i>
+
+                </div>
+                <p>بعد از توافق صاحبان بار به نمایندگی ال بار در مبدا مراجعه کرده و بارنامه خود را دریافت کنید .شما می
+                    توانید همزمان بار برگشتی خود از مقصد را رزرو نمایید
+
+                </p>
+                <div id="createuser">
+                    <h3>
+                        تخلیه بار و دریافت بار جدید
+                    </h3>
+                    <i class="fas fa-dashboard fa-2x"></i>
+                </div>
+                <p>پس از رسیدن به مقصد و تخلیه بار، گزینه "تخلیه بار" را انتخاب نمایید و جهت بارگیری بار برگشتی دوباره
+                    به سامانه ال بار مراجعه کنید
+                </p>
+            </div>
+            <img src="../img/iphone1.png" alt="">
+
+        </div>
+    </section><!--main-section-end-->
+
+
+    <section class="business-talking"><!--business-talking-start-->
+        <div class="ContactUs">
+            <!-- <h2>
+                تماس با ما
+            </h2> -->
+        </div>
+    </section><!--business-talking-end-->
+
+
+    <!------------------------------------------------------------------------------------------------------------->
+
+    <div class="rowcomment">
+        <div class="information">
+
+            <h3><i class="fas fa-location"></i> آدرس : </h3>
+            <span>گلستان<br>گنبد کاووس، خیابان امام خمینی، تقاطع راهنمایی</span>
+            <div class="contact-info-box phone clearfix">
+                <h3><i class="fas fa-phone-square"></i> تلفن ثابت :</h3>
+                <span>02155459148</span>
+                <p>02155404086</p>
+                <span>02191079747</span>
+                <span>09907698795</span>
+            </div>
+            <div class="email">
+                <h3><i class="fas fa-pencil"></i>ایمیل:</h3>
+                <span>info@elbar.ir</span>
+            </div>
+            <div class="hours">
+                <h3><i class="fas fa-clock-o"></i>
+                    ساعات کاری:
+                </h3>
+                <span><strong>
+                        شنبه تا پنج شنبه:
+                    </strong>
+                    8 صبح تا 4 عصر
+                    <br><strong>
+                        جمعه:
+                    </strong>
+                    10 صبح تا 4 عصر
+
+                </span>
+            </div>
+
+        </div>
+
+        <div class="Registeroffer">
+            <h3>ثبت انتقادات ، پیشنهادات و شکایات</h3>
+            <form id="form1" action="#">
+                <div class="form">
+                    <input class="input-text" id="name" placeholder="نام *" type="text" name="name">
+                    <input class="input-text" id="email" placeholder="ایمیل یا شماره تلفن *" type="text">
+                    <textarea class="input-text text-area" id="payam" placeholder="پیام *" type="text" name="payam"
+                        cols="0" rows="0"></textarea>
+                    <div class="row">
+                        <div class="city">
+                            <select name="city" class="form-control" id="city">
+                                <option value="">شهر خود را انتخاب کنید *</option>
+                            </select>
+                        </div>
+                        <div class="province">
+                            <select name="province" class="form-control" id="ostan">
+                                <option value="">انتخاب استان *</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="input-btn" type="submit" value="">ارسال پیام</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-download">
+            <h3>دانلود مستقیم اپلیکیشن های ال بار</h3>
+            <!-- <h3><small>برای سیستم عامل اندروید</small></h3> -->
+            <div class="btn-footer">
+                <a class="btn-bazaar" href="https://cafebazaar.ir/app/ir.elbar.elbar_ir">
+                    <!-- <i class="fas fa-truck f2" style="margin-right: 1rem;"></i> -->
+                    دریافت اپلیکیشن از بازار </a>
+                <a class="btn-mayket" href="/download-app/elbar.apk">
+                    <!-- <i class="fas fa-download f2" style="margin-right: 1rem;"></i> -->
+                    دریافت اپلیکیشن از مایکت </a>
+            </div>
+            <span class="copyright">
+                کپی رایت@2020 تمام حقوق مادی و معنوی این سایت متعلق به
+                <a href="http://www.elbar.ir/">شرکت مهرآفاق گلستان </a>می باشد.
+            </span>
+        </div>
+        <div class="nemadphoto">
+            <a href="https://trustseal.enamad.ir/?id=165056&Code=bjzcFnxMYX45yBqu2CSI" target="_blank">
+                <img src="../img/enemad.png" alt="" class="nemadpic">
+            </a>
+            <a href="https://logo.samandehi.ir/Verify.aspx?id=172008&p=rfthjyoeuiwkobpdobpdmcsi" target="_blank">
+                <img src="../img/samaneh.png" alt="" class="nemadpic">
+            </a>
+            <a href="https://ecunion.ir/verify/elbar.ir?token=58927066163f11197ec7" target="_blank">
+                <img src="../img/etehadieh.svg" alt="" class="nemadpic">
+            </a>
+        </div>
+    </footer>
+    <script src="../javascript/login-driver.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+.popup-driver {
+  position: absolute;
+  top: 140px;
+  right: 400px;
+  display: none;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-content-diver {
+  height: 450px;
+  width: 550px;
+  position: relative;
+  /* border-top: 5px solid #063b69; */
+  border-radius: 5px;
+  background: rgbA(248, 249, 250, 0.85);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.popup-content-diver .title {
+  font-size: 1.8rem;
+  color: #063b69;
+  font-weight: 400px;
+}
+
+.popup-content-diver p,
+a {
+  color: #428bca;
+  text-decoration: none;
+  margin: 5px 0px;
+  font-size: 0.95rem;
+}
+
+.popup-driver a:hover {
+  color: #ca3002;
+}
+
+.popup-content-diver #loginUser {
+  display: none;
+}
+
+.username-input,
+.phonenumber-input {
+  margin: 10px auto;
+  display: block;
+  width: 42%;
+  padding: 8px;
+  /* border: 1px solid gray; */
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input:focus {
+  border: 2px solid #0e87f1;
+}
+
+.close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #fff;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #063b69;
+  color: #063b69;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.popup-content-diver button {
+  background: #0062cc;
+  color: #fff;
+  border-radius: 3px;
+  width: 230px;
+  font-size: 1rem;
+  height: 38px;
+  border: none;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.popup-content-diver button:hover {
+  transition: 0.5s all ease-in-out;
+  background-color: #063b69;
+  color: #ca3002;
+}
+
+.hide {
+  display: none;
+}
+
+.checkbox1 {
+  display: none;
+  font-size: 1em;
+  cursor: pointer;
+  color: #555;
+  align-items: center;
+}
+
+.timer {
+  display: none;
+  flex-direction: column;
+}
+
+.otp-code {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-otp {
+  height: 1.4em;
+  width: 1.4em;
+  border: 1px solid #dad9df;
+  outline: none;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 0.3em;
+  background-color: #ffffff;
+}
+
+.number-otp:focus {
+  border: 2px solid #0e87f1;
+}
+
+.hamburger-menue {
+  display: none;
+}
+
+@media (max-width : 1200px) {
+  .popup-driver {
+    position: absolute;
+    right: 25%;
+  }
+}
+
+@media (max-width : 990px) {
+  .popup-driver {
+    position: absolute;
+    right: 18%;
+  }
+}
+@media (max-width : 768px) {
+  .popup-driver {
+    position: absolute;
+    right: 10%;
+  }
+}
+@media (max-width : 575px) {
+  .popup-driver {
+    position: absolute;
+    right: 10%;
+    height: 450px;
+    width: 400px;
+  }
+}
